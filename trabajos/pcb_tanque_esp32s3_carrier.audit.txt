@@ -1,0 +1,13 @@
+[PASS] AUDITORÍA ELÉCTRICA, TÉRMICA Y DRC 1-CAPA (Norma IPC-2221)
+  * DRC 1-Sola-Capa (0 Cruces) : OK (7 redes 100% aisladas)
+  * Clearance Mínimo Medido    : 0.70 mm (OK)
+  * Temperatura Máxima Pistas  : 27.30 °C (Ambiente 25.0 °C) -> OK
+  * Potencia Total Disipada    : 137.89 mW en pistas
+  * Protección Lógica 3.3V ERC : OK (Divisor 5V->3.33V verificado)
+    - NET_GND                   : V= 0.0V | I=1.60A | W=1.40mm (IPC>=0.57) | L=84.8mm | R= 30.7mΩ | ΔV= 49.1mV (1.49%) | T=27.3°C -> OK (Cumple IPC-2221)
+    - NET_5V                    : V= 5.0V | I=1.40A | W=1.30mm (IPC>=0.48) | L=77.7mm | R= 30.3mΩ | ΔV= 42.4mV (0.85%) | T=26.9°C -> OK (Cumple IPC-2221)
+    - NET_RADAR_TX_TO_BRAIN_RX  : V= 3.3V | I=0.02A | W=0.85mm (IPC>=0.35) | L=18.1mm | R= 10.7mΩ | ΔV=  0.2mV (0.01%) | T=25.0°C -> OK (Cumple IPC-2221)
+    - NET_RADAR_RX_FROM_BRAIN_TX: V= 3.3V | I=0.02A | W=0.85mm (IPC>=0.35) | L=18.1mm | R= 10.7mΩ | ΔV=  0.2mV (0.01%) | T=25.0°C -> OK (Cumple IPC-2221)
+    - NET_BRAIN_TX2_TO_ARD_D10  : V= 3.3V | I=0.02A | W=0.85mm (IPC>=0.35) | L=30.6mm | R= 18.1mΩ | ΔV=  0.4mV (0.01%) | T=25.0°C -> OK (Cumple IPC-2221)
+    - NET_DIVIDER_3V3_NODE      : V= 3.3V | I=0.01A | W=0.85mm (IPC>=0.35) | L=15.9mm | R=  9.4mΩ | ΔV=  0.0mV (0.00%) | T=25.0°C -> OK (Cumple IPC-2221)
+    - NET_ARD_D11_5V_IN         : V= 5.0V | I=0.01A | W=0.85mm (IPC>=0.35) | L= 6.0mm | R=  3.5mΩ | ΔV=  0.0mV (0.00%) | T=25.0°C -> OK (Cumple IPC-2221)
